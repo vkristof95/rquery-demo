@@ -1,0 +1,39 @@
+.grid {
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr;
+  border: solid 0.1rem white;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  border-bottom: solid 0.1rem white;
+  margin-bottom: 0.5rem;
+}
+
+.infinity {
+  padding: 2rem;
+  max-height: 25rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin-bottom: 1rem;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 10rem;
+  border: 1px solid white;
+  padding: 1rem;
+  overflow: scroll;
+  align-items: center;
+}
+
+.mutate-contianer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
